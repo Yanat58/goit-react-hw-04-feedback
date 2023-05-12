@@ -1,0 +1,24 @@
+.boxBtn {
+  display: flex;
+  margin: 0 40px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.btn {
+  display: block;
+  width: 80px;
+  padding: 8px;
+
+  border: 1px solid rgb(133, 132, 132);
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 0 #646464bf;
+  cursor: pointer;
+  background-color: rgb(183, 240, 221);
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: rgb(112, 247, 202);
+}
